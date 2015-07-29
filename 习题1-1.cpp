@@ -11,7 +11,7 @@ int main()
     
     float average;
     average = (a+b+c)/3;
-    cout<<setiosflags(ios::fixed)<<setprecision(3)<<average;    //保留3位小数
+    cout<<setiosflags(ios::fixed)<<setprecision(3)<<average<<endl;    //保留3位小数
     
     return 0;
 }
